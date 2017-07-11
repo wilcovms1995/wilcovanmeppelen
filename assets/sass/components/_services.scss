@@ -1,0 +1,23 @@
+.services {
+	background: $brand-primary;
+	color: $white;
+	.col-sm-4{
+		padding:50px 0;
+		height:300px;
+		text-align: center;
+		color: $white;
+
+		h1{
+			margin:20px 0;
+			@include font-size(32px);
+			text-transform: uppercase;
+			font-weight: $medium;
+		} 
+
+		p{
+			@include font-size(25px);
+			font-weight: $light;
+			line-height: 25px;
+		}
+	}
+}

@@ -1,0 +1,55 @@
+@mixin push--auto {
+    margin: { 
+        left: auto;
+        right: auto;
+    }
+}
+
+@mixin overlay($position) { 
+  position:$position;
+  top:0;
+  bottom:0;         
+  left:0;
+  right:0;
+  height:100%;
+  width:100%;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin shadow($args...){
+  -moz-box-shadow:    $args;
+  -webkit-box-shadow: $args;
+  box-shadow:         $args;
+}
+
+@mixin rotate($deg){
+  -ms-transform: rotate($deg);
+  -webkit-transform: rotate($deg);
+  transform: rotate($deg);
+}
+
+@mixin transform--top($pos, $pos2) {
+  transform: translate($pos, $pos2);
+  -ms-transform: translate($pos, $pos2);
+  -webkit-transform: translate($pos, $pos2);
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

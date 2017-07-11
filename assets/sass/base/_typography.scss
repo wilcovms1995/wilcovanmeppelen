@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+$brand-font: 'Poppins', sans-serif;
+
+$light: 100;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+
+body{
+	font-family: $brand-font;
+	@include font-size(18px);
+	color: $black;
+}

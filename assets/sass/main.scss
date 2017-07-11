@@ -1,0 +1,33 @@
+//vendors
+@import "vendors/bootstrap";
+@import "vendors/slick";
+@import "vendors/slick-theme";
+@import "vendors/font-awesome";
+
+//helpers
+@import "helpers/functions";
+@import "helpers/mixins";
+@import "helpers/variables";
+
+//base
+@import "base/reset";
+@import "base/typography";
+
+//components
+@import "components/buttons";
+@import "components/navigation";
+@import "components/carousel";
+@import "components/portfolio";
+@import "components/services"; 
+
+//layout
+@import "layout/forms";
+@import "layout/header";
+@import "layout/footer";
+
+//pages
+@import "pages/contact"; 
+@import "pages/home";
+
+//themes
+@import "themes/theme";
