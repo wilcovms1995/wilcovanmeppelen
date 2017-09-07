@@ -5,7 +5,8 @@
 	<script src="assets/js/scripts.js"></script>
 
 	<!-- Vendors -->
-	<script src="assets/js/slick.min.js"></script>	
-	<script src="assets/js/jquery.stellar.min.js"></script>	
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.vide.min.js"></script>	
 </body>
 </html>

@@ -3,10 +3,12 @@
 ?>
 
 <!-- Video homepage -->
-<section class="header">
-		<video playsinline autoplay muted loop poster="images/background_home.jpg" id="bgvid">
-    	<source src="background.mp4" type="video/mp4">
-		</video>
+<section class="header"> 
+		<h1>Filmmaker_______Fotograaf</h1>
+		<div style="width: 100%; height: 100%;"
+		  data-vide-bg="mp4: video/background.mp4, poster: images/background_image.jpg"
+		  data-vide-options="posterType: jpg, loop: false, muted: false, position: 50% 50%, autoplay: true, resizing: true">
+		</div>
 </section>
 
 <!-- Portfolio -->
@@ -131,7 +133,10 @@
 				<span>Vimeo</span>
 			</div>
 			<p>
-				Altijd op zoek naar goede verhalen en naar de beste manier om dit verhaal neer te
+				Ik ben altijd op zoek naar goede verhalen en naar de beste manier om een verhaal neer te zetten. Ik denk in creatieve hoeken en probeer iets unieks neer te zetten wat past.
+				Ik ben benieuwd naar wat jou beweegt en wat je inspireert. Daarnaast ben ik dagelijks op zoek naar de beste smaak koffie, de beste heb ik tot nu toe gevonden in Ethiopië.
+				<br><br>
+				Nieuwe koffiesmaken ontdekt of samen eens een bakkie doen? Voel je vrij om contact op te nemen.
 			</p>
 		</div>
 	</div>
