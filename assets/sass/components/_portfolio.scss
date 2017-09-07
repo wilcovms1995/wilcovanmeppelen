@@ -1,9 +1,12 @@
 .portfolio{
-	height:100vh;
-	width:100%;
-	position: relative;
 
-	.container{
-		position:relative;
-	}
-} 
+  .col-sm-6{
+    position: relative;
+
+    .bg{
+      @include overlay(absolute);
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}

@@ -10,37 +10,8 @@
 
 <nav>
 	<div class="container-fluid">
+
 		
-		<div class="topNav">
-			<div class="socialNav pull-right">
-				<ul>
-					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-vimeo-square" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-				</ul> 
-			</div>
-			<div class="contactNav">
-				<span><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i> 06 40106237 </a></span>
-				<span><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> hello@wilcovanmeppelen.nl </a></span>
-			</div>
-		</div> 
-
-		<div class="hamburger pull-right">
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
-
-		<div class="menu">
-			<ul>
-				<li>Home</li>
-				<li>Diensten</li>
-				<li>Portfolio</li>
-				<li>Blog</li>
-				<li>Contact</li> 
-			</ul>
-		</div>
 
 	</div>
 </nav>
